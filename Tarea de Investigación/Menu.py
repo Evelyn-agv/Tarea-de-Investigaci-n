@@ -95,7 +95,7 @@ while opc != 5:
                 os.system("cls")
                 print("Área de un Cuadrado")
                 lado= int(input("Ingrese el lado: "))
-                process1.areaCuadrado(radio)
+                process1.areaCuadrado(lado)
                 input("Presione una tecla para continuar...")
             if opc1=="10":
                 break
